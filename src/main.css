@@ -1,0 +1,124 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+body {
+  font-family: 'Actor', sans-serif;
+  font-size: 24px;
+}
+
+
+.menu-item {
+  font-size: 32px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navigation {
+  width: 400px;
+}
+
+
+.page--home {
+  background-color: #00CACA;
+}
+
+.page--about {
+  background-color: #CA0065;
+}
+
+#svg__coffee-machine {
+  fill: #fff;
+}
+
+#svg__binocular {
+  fill: #fff;
+  width: 300px;
+}
+
+
+
+
+h1 {
+  font-size: 3.6em;
+  margin: 0.2em 0;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0.2em 0;
+  font-weight: 400;
+}
+
+
+
+
+.bg--white {
+  background-color: #fff;
+}
+
+.color--dark {
+  color: #191919;
+}
+
+.font--abel {
+  font-family: 'Abel', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex__direction--column {
+  flex-direction: column;
+}
+
+.flex--center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--between--center {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width--50 {
+  width: 50%
+}
+
+.width--100 {
+  width: 100%
+}
+
+.max-width--1200px {
+  max-width: 1400px;
+  padding: 0 30px;
+}
+
+.height--100 {
+  height: 100%;
+}
+
+.height--50px {
+  height: 50px;
+}
+
+.height--150px {
+  height: 150px;
+}
+
+.padding--30px {
+  padding: 30px;
+}
+
+.text--welcome {
+  width: 420px;
+}
