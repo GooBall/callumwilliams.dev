@@ -26,24 +26,16 @@ body {
 
 
 .page--home {
-  background-color: #00CACA;
+  background-color: #0065ca;
 }
 
 .page--about {
   background-color: #CA0065;
 }
 
-#svg__coffee-machine {
-  fill: #fff;
+svg {
+  width: 80%;
 }
-
-#svg__binocular {
-  fill: #fff;
-  width: 300px;
-}
-
-
-
 
 h1 {
   font-size: 3.6em;
@@ -68,6 +60,10 @@ h2 {
   color: #191919;
 }
 
+.color--light {
+  color: #fff;
+}
+
 .font--abel {
   font-family: 'Abel', sans-serif;
 }
@@ -85,9 +81,17 @@ h2 {
   align-items: center;
 }
 
+.flex--center--top {
+  align-items: center;
+}
+
 .flex--between--center {
   justify-content: space-between;
   align-items: center;
+}
+
+.flex--shrink {
+  flex-shrink: 0;
 }
 
 .width--50 {
