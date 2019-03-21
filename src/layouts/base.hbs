@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{pageTitle}} | Callum Williams</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Abel|Actor" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="../../node_modules/normalize.css/normalize.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+  <title>{{pageTitle}} | CW</title>
+
+  <meta property="og:image" content="">
+  <meta property="og:description" content="Yet another British full-stack developer who likes coffee...">
+  <meta property="og:title" content="Callum Williams">
+  <meta name="twitter:title" content="Callum Williams">
+
+  <meta name="author" content="Callum Williams">
+  <meta name="description" content="The official website of Callum Williams, a UK based developer. See what Callum is up to and read about his carreer as a web developer and software engineer.">
+
+  <link href="https://fonts.googleapis.com/css?family=Abel|Actor" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+  <link rel="stylesheet" type="text/css" href="../../node_modules/normalize.css/normalize.css" media="none" onload="if(media!='all')media='all'" />
+  <link rel="stylesheet" type="text/css" href="../main.css" media="none" onload="if(media!='all')media='all'" />
 </head>
 <body class="height--100 flex flex__direction--column flex--center--top">
   {{> header}}
@@ -15,6 +24,5 @@
     {{{body}}}
   </main>
   <footer class="height--50px"></footer>
-  <script src="../index.js"></script>
 </body>
 </html>

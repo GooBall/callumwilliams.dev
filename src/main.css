@@ -131,7 +131,7 @@ h2 {
   .flex__break {
     flex-direction: column;
   }
-  .width--50, 
+  .width--50,
   .text--welcome {
     width: 100%;
   }
