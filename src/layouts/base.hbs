@@ -14,9 +14,9 @@
   <meta name="author" content="Callum Williams">
   <meta name="description" content="The official website of Callum Williams, a UK based developer. See what Callum is up to and read about his carreer as a web developer and software engineer.">
 
-  <link href="https://fonts.googleapis.com/css?family=Abel|Actor" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
-  <link rel="stylesheet" type="text/css" href="../../node_modules/normalize.css/normalize.css" media="none" onload="if(media!='all')media='all'" />
-  <link rel="stylesheet" type="text/css" href="../main.css" media="none" onload="if(media!='all')media='all'" />
+  <link href="https://fonts.googleapis.com/css?family=Abel|Actor" rel="preload" as="style" onload="this.rel = 'stylesheet'">
+  <link href="../../node_modules/normalize.css/normalize.css" rel="preload" as="style" onload="this.rel = 'stylesheet'"/>
+  <link href="../main.css" rel="preload" as="style" onload="this.rel = 'stylesheet'"/>
 </head>
 <body class="height--100 flex flex__direction--column flex--center--top">
   {{> header}}
