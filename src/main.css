@@ -126,3 +126,13 @@ h2 {
 .text--welcome {
   width: 420px;
 }
+
+@media screen and (max-width: 800px) {
+  .flex__break {
+    flex-direction: column;
+  }
+  .width--50, 
+  .text--welcome {
+    width: 100%;
+  }
+}
